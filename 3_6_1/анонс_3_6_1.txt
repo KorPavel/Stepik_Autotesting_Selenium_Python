@@ -1,0 +1,12 @@
+08.10.2022  23:15     772 0_conftest.py		=== старый файл conftest.py
+09.10.2022  10:16   2 229 conftest.py		=== расширенный conftest.py с заданием браузера 
+						и языка браузера с соммандной строки.
+08.10.2022  20:48     280 test_366.py		=== Conftest.py и передача параметров 
+						в командной строке. 
+						pytest -s -v 3_6_1\test_366.py
+						По умолчанию используется браузер Хром.
+						pytest -s -v --browser_name=firefox 3_6_1\test_366.py
+						В этом случае запустится браузер Firefox.
+08.10.2022  23:05     465 test_367.py		=== Плагины и перезапуск тестов. pytest-rerunfailures
+				pytest -v --tb=line --reruns 1 --browser_name=chrome test_rerun.py
+09.10.2022  11:41     816 test_369.py		=== запуск автотестов для разных языков интерфейса
