@@ -1,0 +1,5 @@
+05.10.2022  17:48   171 test_338.py		=== PyTest — как пишут тесты
+05.10.2022  18:09   926 test_339.py		=== PyTest — проверка ожидаемого результата 
+						(assert).
+						with pytest.raises(NoSuchElementException):
+05.10.2022  18:17   818 test_339(1).py		-  -//-
